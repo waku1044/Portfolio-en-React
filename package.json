@@ -6,6 +6,7 @@
   "homepage":"https://waku1044.github.io/Portfolio-en-React/",
   "scripts": {
     "predeploy":"npm run dev",
+    "deploy":"gh-pages -d dev",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
