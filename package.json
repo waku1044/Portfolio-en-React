@@ -3,20 +3,22 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://waku1044.github.io/Portfolio-en-React/",
+  "homepage": "https://waku1044.github.io/Portfolio-en-React/",
   "scripts": {
-    "predeploy":"npm run dev",
-    "deploy":"gh-pages -d dev",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.8.0",
-    "react-router-dom": "^6.8.0"
+    "react-router-dom": "^6.8.0",
+    "reactstrap": "^9.1.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

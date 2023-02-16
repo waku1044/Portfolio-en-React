@@ -103,6 +103,23 @@ main h2{
 	padding: 30px;
 	color: #84de02;
 }
+.dialog{
+	
+	width: 50%;
+	z-index: 999;
+	margin: 0 auto;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+.habilidades .imgdialog{
+	width: 100%;
+}
+.logos .imgdialog:hover{
+	opacity: 1;
+}
+
 .habilidades{
 	font-size: 1.5em;
 	text-align: center;

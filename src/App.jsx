@@ -1,8 +1,10 @@
-import React from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import  Header from './header/Header.jsx'
-import './components/Style.css'
+import React from 'react';
+import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import reactLogo from './assets/react.svg';
+import './App.css';
+import  Header from './header/Header.jsx';
+import './components/Style.css';
 import  Sobremi from './components/Sobremi';
 import Habilidad from './components/Habilidades.jsx';
 import Proyecto1 from './components/Proyecto1.jsx';
